@@ -1,0 +1,10 @@
+.plugin-gridster.bonjour .front {
+  background: #55b5e6 url('images/deposit.jpg') center 34px;
+  background-size:   150px 80px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.bonjour .back {
+  background: #070000 url('images/images.png') center 34px;
+  background-size:   150px 75px;
+  background-repeat: no-repeat;
+}
