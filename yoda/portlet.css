@@ -1,0 +1,10 @@
+.plugin-gridster.yoda .front {
+  background: #55b5e6 url('images/image.jpg') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.yoda .back {
+  background: #070000 url('images/image1.png') center 34px;
+  background-size:   70px 70px;
+  background-repeat: no-repeat;
+}
