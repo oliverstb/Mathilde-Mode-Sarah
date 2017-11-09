@@ -1,0 +1,10 @@
+{
+  "modules": { 
+    "meteomathilde": {
+      "description": "Plugin pour meteo",
+	  "Auteur"     : "DarakBest",
+      "version": "3.16"
+      
+    }
+  }
+}
