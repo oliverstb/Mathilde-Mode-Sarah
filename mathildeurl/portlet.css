@@ -1,0 +1,10 @@
+.plugin-gridster.mathildeurl .front {
+  background: #55b5e6 url('images/image.png') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.mathildeurl .back {
+  background: #070000 url('images/image1.png') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
