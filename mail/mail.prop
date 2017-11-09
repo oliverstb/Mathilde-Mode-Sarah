@@ -1,0 +1,25 @@
+{
+  "modules" : { 
+    "mail"  : {
+      "description": "reception des titre mail",
+      "version"    : "3.16",
+      "email"      : "Votre adresse Mail",
+      "password"   : "Le mot de passe de votre adresse Mail",
+      "smtp"       : "smtp.gmail.com",
+      "imap"       : "imap.gmail.com",
+      "ssl"        : "true",
+      "to"         : ""
+    }
+  },
+  
+  "cron" : {
+    "mail" :   { 
+      "name"       : "mail",
+      "description": "Interroge Votre compte Mail Gmail pour effectuer des actions: lecture audio, tts, actions",
+      "time"       : "0 */1 * * * *",
+      "inbox"      : "Inbox",
+      "speechbox"  : "",
+      "recobox"    : ""
+    }
+  }
+}
