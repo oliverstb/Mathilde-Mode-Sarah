@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "freebox"  : {
+      "description": "Permet de commander la Freebox (voir la documentation).",
+      "version" : "4.2.1",
+      "code_telecommande": "Votre numéro a métre"
+    }
+  }
+}

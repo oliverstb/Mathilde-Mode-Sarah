@@ -1,0 +1,44 @@
+Voici les commandes �  donner
+
+    Sarah allume la Freebox : cela va simplement allumer la Freebox sur sa page Univers
+    Sarah mets la TV : lorsque vous êtes sur la page Univers de la Freebox, cette commande permet de passer en mode télévision
+    Sarah allume la télé : cette fois la Freebox va s'allumer puis le mode télévision de la Freebox sera mis (combo des deux commandes précédentes)
+        SARAH demande alors si l'on veut zapper sur une chaine (la télévision passe en mode muet pour entendre la réponse) :
+        Oui zappe sur la chaine : permet de zapper sur la chaine voulue (liste �  mettre �  jour dans le fichier freebox.js directement)
+        Non merci : vous ne voulez pas changer de chaine
+    Sarah éteint la Freebox : la Freebox s'éteint
+    Sarah va dans Mes Enregistrements : va dans Mes Enregistrements (Freebox Revolution)
+    Sarah va dans Mes Vidéos : va dans Mes Vidéos (Freebox Revolution)
+
+    Sarah coupe le son de la Freebox
+    Sarah remet le son de la Freebox
+    Sarah baisse légèrement le son de la Freebox : baisse le son de 10 points
+    Sarah monte légèrement le son de la Freebox : monte le son de 10 points
+    Sarah baisse le son de la Freebox : baisse le son de 20 points
+    Sarah monte le son de la Freebox : monte le son de 20 points
+    Sarah zappe sur TF1 : on passe sur la chaine TF1
+    Sarah les infos du programme : affiche les informations sur le programme en cours
+    Sarah enlève les infos : enlève les informations du programme en cours
+    Sarah mets la Freebox sur pause : enclenche la pause sur le programme en cours
+    Sarah mets la Freebox en lecture : remets la lecture du programme en cours
+    Sarah mets le programme en lecture : remets la lecture du programme en cours
+
+    Sarah Freebox OK : correspond �  un appui sur la touche OK de la télécommande
+    Sarah Freebox menu : correspond �  un appui sur la touche Free de la télécommande
+    Sarah Freebox haut : correspond �  un appui sur la flèche haut de la télécommande
+    Sarah Freebox bas : correspond �  un appui sur la flèche bas de la télécommande
+    Sarah Freebox droite : correspond �  un appui sur la flèche droite de la télécommande
+    Sarah Freebox gauche : correspond �  un appui sur la flèche gauche de la télécommande
+
+Mode Freebox
+
+En disant SARAH active le mode Freebox ou SARAH passe en mode Freebox on peut ensuite indiquer les commandes suivantes :
+
+    OK : correspond �  un appui sur la touche OK de la télécommande
+    Menu Freebox : correspond �  un appui sur la touche Free de la télécommande
+    haut / en haut / monte : correspond �  un appui sur la flèche haut de la télécommande
+    bas / en bas / descends : correspond �  un appui sur la flèche bas de la télécommande
+    droite / �  droite : correspond �  un appui sur la flèche droite de la télécommande
+    gauche / �  gauche : correspond �  un appui sur la flèche gauche de la télécommande
+    chaine suivante / chaine précédente : permet de zapper sur la chaine suivante ou précédente
+    Merci ça sera tout : permet de sortir du mode Freebox
