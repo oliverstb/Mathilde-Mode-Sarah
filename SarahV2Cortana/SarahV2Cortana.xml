@@ -1,0 +1,653 @@
+	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleSarahV2Cortana" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+    <rule id="ruleSarahV2Cortana" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>SARAH</item>
+    <one-of> 
+	<!-- Mode chatterbots IA-->
+	<item>Téste<tag>out.action.val="Téste";</tag></item>
+	<item>tu ai la<tag>out.action.val="la";</tag></item>
+	<item>té la<tag>out.action.val="la";</tag></item>
+    <item>présente toi<tag>out.action.val="présente toi";</tag></item>
+	<item>Fait ta présentation<tag>out.action.val="présente toi";</tag></item>
+	<item>Bonjour<tag>out.action.val="Bonjour";</tag></item>
+	<item>Salut<tag>out.action.val="Bonjour";</tag></item>
+	<item>Yo<tag>out.action.val="Bonjour";</tag></item>
+	<item>hélo<tag>out.action.val="Bonjour";</tag></item>
+	<item>Coucou<tag>out.action.val="Bonjour";</tag></item>	
+	<item>ça roule<tag>out.action.val="ça roule";</tag></item>
+	<item>sa gaze<tag>out.action.val="ça roule";</tag></item>	
+	<item>Enchanté<tag>out.action.val="Enchanté";</tag></item>	
+	<item>Bien merci et toi<tag>out.action.val="Bien merci";</tag></item>
+	<item>Bien et toi<tag>out.action.val="Bien merci";</tag></item>	
+	<item>Qui et tu<tag>out.action.val="Qui et tu";</tag></item>
+	<item>Quelle age a tu<tag>out.action.val="Quelle age";</tag></item>
+	<item>Quelle age<tag>out.action.val="Quelle age";</tag></item>
+	<item>Quelle son té point fort<tag>out.action.val="point fort";</tag></item>
+	<item>Quelle son té points faible<tag>out.action.val="points faible";</tag></item>	
+	<item>aise que dieu existe<tag>out.action.val="dieu existe";</tag></item>
+	<item>Oké<tag>out.action._attributes.tts = "Oké";</tag></item>
+	<item>Peut tu prédire la fin du monde<tag>out.action.val="fin du monde";</tag></item>
+	<item>Une citation s'il te plait<tag>out.action.va="Une citation";</tag></item>
+	<item>Une autre citation s'il te plait<tag>out.action.val="Une autre citation";</tag></item>
+	<item>Qui et Albert Einstein<tag>out.action.val="Albert Einstein";</tag></item>
+	<item>Au revoir<tag>out.action.val="Au revoir";</tag></item>
+	<item>dis bonjour a chloé<tag>out.action.val="chloé";</tag></item>
+	<item>bonjour a maman<tag>out.action.val="maman";</tag></item>
+	<item>dis bonjour a jérôme<tag>out.action.val="jérôme";</tag></item>
+	<item>sava et toi<tag>out.action.val="sava";</tag></item>
+	<item>moi sava et toi<tag>out.action.val="sava";</tag></item>
+	<item>sava<tag>out.action.val="sava";</tag></item>
+	<item>sava bien et toi<tag>out.action.val="sava";</tag></item>
+	<item>Que fais-tu<tag>out.action.val="Que fait tu";</tag></item>
+	<item>Tu fais quoi<tag>out.action.val="Que fait tu";</tag></item>
+	<item>as-tu trouvé des erreurs<tag>out.action.val="des erreur";</tag></item>
+	<item>tu trouve des erreur<tag>out.action.val="des erreur";</tag></item>
+	<item>tu a trouvé des erreur<tag>out.action.val="des erreur";</tag></item>
+	<item>tu te fous de moi<tag>out.action.val="fou de moi";</tag></item>
+	<item>tu te fiche de moi<tag>out.action.val="fou de moi";</tag></item>
+	<item>tu le fai éxpré<tag>out.action.val="fou de moi";</tag></item>
+	<item>Tu dors<tag>out.action.val="Tu dore";</tag></item>
+	<item>Merci<tag>out.action.val="Merci";</tag></item>
+    <item>Qui est ton créateur<tag>out.action.val="ton créateur";</tag></item>
+	<item>qui est le président<tag>out.action.val="le président";</tag></item>
+	<item>De quoi<tag>out.action.val="De quoi";</tag></item>
+	<item>comment<tag>out.action.val="De quoi"</tag></item>
+	<item>A bon<tag>out.action.val="A bon";</tag></item>
+	<item>Tes sure<tag>out.action.val="A bon";</tag></item>
+	<item>Tes sure de toi<tag>out.action.val="A bon";</tag></item>
+	<item>Tu tennui pas trop<tag>out.action.val="Tu tennui";</tag></item>	
+	<item>Chante<tag>out.action.val="Chante";</tag></item>
+	<item>Chante pour moi<tag>out.action.val="Chante";</tag></item>
+	<item>Tu Chante<tag>out.action.val="Chante";</tag></item>	
+	<item>je peux te poser une question<tag>out.action.val="poser une question";</tag></item>	
+	<item>je suis stupide<tag>out.action.val="stupide";</tag></item>
+	<item>j'ai été faire les course<tag>out.action.val="les course";</tag></item>
+	<item>je vais manger<tag>out.action.val="vais manger";</tag></item>
+	<item>J'ai vomi<tag>out.action.val="J'ai vomi";</tag></item>
+	<item>Je suis malade<tag>out.action.val="Je suis malade";</tag></item>
+	<item>Tu et plus intelligente maintenant<tag>out.action.val="intelligente maintenant";</tag></item>
+	<item>tu es vexé<tag>out.action.val="vexé";</tag></item>
+	<item>Tu m'en veux<tag>out.action.val="Je ne suis pas rancunière";</tag></item>
+	<item>Faut que je te laisse<tag>out.action.val="te laisse";</tag></item>
+	<item>j'ai u mon bac<tag>out.action.val="j'ai u";</tag></item>
+	<item>j'ai u mon diplôme<tag>out.action.val="j'ai u";</tag></item>
+	<item>j'ai été admis<tag>out.action.val="j'ai u";</tag></item>
+	<item>j'ai des exam<tag>out.action.val="j'ai u";</tag></item>
+	<item>j'ai un travaille<tag>out.action.val="j'ai u";</tag></item>
+	<item>j'ai u un bouleau<tag>out.action.val="j'ai u";</tag></item>
+	<item>Je me rends compte<tag>out.action.val="rends compte";</tag></item>
+	<item>j'ai passé une sale journé<tag>out.action.val="sale journé";</tag></item>
+	<item>Bonne à rien<tag>out.action.val="Bonne à rien";</tag></item>
+	<item>Tu es gentil<tag>out.action.val="gentil";</tag></item>
+	<item>Tu es cool<tag>out.action.val="gentil";</tag></item>
+	<item>Tu es sympa<tag>out.action.val="gentil";</tag></item>
+	<item>Tu es super<tag>out.action.val="gentil";</tag></item>
+	<item>Tu détournes la conversation<tag>out.action.val="Tu détournes";</tag></item>
+	<item>je viens de me lever<tag>out.action.val="Vous avez bien dormi";</tag></item>
+	<item>Tu me déprime<tag>out.action.val="déprime";</tag></item>
+	<item>peut tu faire une recherche pour moi<tag>out.action.val="recherche";</tag></item>
+	<item>peut tu faire une recherche<tag>out.action.val="recherche";</tag></item>
+	<!-- Fin du Mode chatterbots IA-->
+
+	<!-- Affichage est ferme l'interface avec le logiciel rainmeter en .ahk-->
+	<item>ouvre ton interface<tag>out.action.val="Runtruc"</tag></item>
+	<item>mais ton interface<tag>out.action.val="Runtruc"</tag></item>
+    <item>affiche ton interface<tag>out.action.val="Runtruc"</tag></item>
+    <item>active ton interface<tag>out.action.val="Runtruc"</tag></item>
+    <item>lance ton interface<tag>out.action.val="Runtruc"</tag></item>
+    <item>masque ton interface<tag>out.action.val="closetruc"</tag></item>
+    <item>ferme ton interface<tag>out.action.val="closetruc"</tag></item>
+    <item>désactive ton interface<tag>out.action.val="closetruc"</tag></item>
+	<item>éteinds ton interface<tag>out.action.val="closetruc"</tag></item>
+	
+	<!-- Affichage l'interface avec le logiciel rainmeter en .bat -->	
+    <item>affiche ton interface<tag>out.action.val="runrainmeter"</tag></item>
+    <item>active ton interface<tag>out.action.val="runrainmeter"</tag></item>
+    <item>lance ton interface<tag>out.action.val="runrainmeter"</tag></item>   
+
+	<!-- Ferme l'interface avec le logiciel rainmeter en .bat -->
+    <item>masque ton interface<tag>out.action.val="closerainmeter"</tag></item>
+    <item>ferme ton interface<tag>out.action.val="closerainmeter"</tag></item>
+    <item>désactive ton interface<tag>out.action.val="closerainmeter"</tag></item>
+	<item>éteinds ton interface<tag>out.action.val="closerainmeter"</tag></item>
+	
+	<!-- Ouvre le clavier virtuel de Windows --> 
+ 	<item>affiche le clavier<tag>out.action.val="runclavier"</tag></item>
+	<item>mai le clavier<tag>out.action.val="runclavier"</tag></item>
+ 	<item>va sur le clavier<tag>out.action.val="runclavier"</tag></item>
+	<item>ouvre le clavier<tag>out.action.val="runclavier"</tag></item>
+	<item>balance le clavier<tag>out.action.val="runclavier"</tag></item>
+	<item>éxécute le clavier<tag>out.action.val="runclavier"</tag></item>
+	
+	<!-- Ferme le clavier virtuel de Windows --> 
+ 	<item>Ferme le clavier<tag>out.action.val="closeclavier"</tag></item>
+	<item>enlève le clavier<tag>out.action.val="closeclavier"</tag></item>
+ 	<item>éteins le clavier<tag>out.action.val="closeclavier"</tag></item>
+
+	<!-- Retour, revenire vair le Bureau --> 
+ 	<item>affiche le bureau<tag>out.action.val="minimize"</tag></item>
+	<item>mai toi sur le bureau<tag>out.action.val="minimize"</tag></item>
+	<item>mai le bureau<tag>out.action.val="minimize"</tag></item>
+ 	<item>va sur le bureau<tag>out.action.val="minimize"</tag></item>
+	<item>ouvre le bureau<tag>out.action.val="minimize"</tag></item>
+	
+	<!-- Affichage de la vue 3D fonctionne que sur Windows 7 ( pour Windows 10 c'est en cours ) -->
+    <item>restore<tag>out.action.val="restore"</tag></item>
+	<item>affiche les fenetres<tag>out.action.val="restore"</tag></item>
+	<item>affiche les page<tag>out.action.val="restore"</tag></item>
+	<item>vue global<tag>out.action.val="global"</tag></item>
+	<item>affiche la vue d'ensemble<tag>out.action.val="global"</tag></item>
+	<item>affiche la 3D<tag>out.action.val="global"</tag></item>
+	<item>lance la 3D<tag>out.action.val="global"</tag></item>
+    <item>mai la 3D<tag>out.action.val="global"</tag></item>
+	
+	<!-- Affiche l'enplacement du plugin, dossier, image de sarahv2 -->  
+	
+	<item>affiche les pluguine<tag>out.action.val="plugins"</tag></item>
+	<item>affiche tes pluguine<tag>out.action.val="plugins"</tag></item>
+	<item>affiche ton dossier<tag>out.action.val="dossier"</tag></item>
+	<item>affiche mes images<tag>out.action.val="images"</tag></item>
+	<item>affiche mes documents<tag>out.action.val="documents"</tag></item>
+	<item>affiche mes Films<tag>out.action.val="Films"</tag></item>
+	
+	<!-- Lancement divers page web --> 
+	<!-- Affichage mon forum robotique-projet --> 
+	<item>affiche mon forum<tag>out.action.val="forum"</tag></item>
+	<item>lance mon forum<tag>out.action.val="forum"</tag></item>
+	<item>ouvre mon forum<tag>out.action.val="forum"</tag></item>
+	<item>va sur mon forum<tag>out.action.val="forum"</tag></item>
+	
+	<!-- Affichage de la page Facebook --> 
+	<item>affiche Facebook<tag>out.action.val="Facebook"</tag></item>
+	<item>lance Facebook<tag>out.action.val="Facebook"</tag></item>
+	<item>ouvre Facebook<tag>out.action.val="Facebook"</tag></item>
+	<item>va sur Facebook<tag>out.action.val="Facebook"</tag></item>
+	<item>va sur fèillsbouque<tag>out.action.val="Facebook"</tag></item>
+	<item>affiche fèillsbouque<tag>out.action.val="Facebook"</tag></item>
+	<item>lance fèillsbouque<tag>out.action.val="Facebook"</tag></item>
+	<item>ouvre fèillsbouque<tag>out.action.val="Facebook"</tag></item>
+	
+	<!-- Affichage de la page Youtube -->
+	<item>lance youtube<tag>out.action.val="youtube"</tag></item>
+	<item>affiche youtube<tag>out.action.val="youtube"</tag></item>
+	<item>va sur youtube<tag>out.action.val="youtube"</tag></item>
+	<item>ouvre youtube<tag>out.action.val="youtube"</tag></item>
+	
+	<!-- Affichage de la page de la Communauté -->
+	<item>va sur la communauté<tag>out.action.val="communauté"</tag></item> 
+	<item>affiche la communauté<tag>out.action.val="communauté"</tag></item>
+	<item>lance la communauté<tag>out.action.val="communauté"</tag></item> 
+	<item>ouvre la communauté<tag>out.action.val="communauté"</tag></item>
+	
+	<!-- Affichage de la page Gmail -->
+	<item>mai Gimèl<tag>out.action.val="Gmail"</tag></item>
+	<item>mai Gémèl<tag>out.action.val="Gmail"</tag></item>
+	<item>ouvre Gimèl<tag>out.action.val="Gmail"</tag></item>
+	<item>ouvre Gémèl<tag>out.action.val="Gmail"</tag></item>
+	<item>lance Gimèl<tag>out.action.val="Gmail"</tag></item>
+	<item>lance Gémèl<tag>out.action.val="Gmail"</tag></item>
+	<item>affiche Gimèl<tag>out.action.val="Gmail"</tag></item>
+	<item>affiche Gémèl<tag>out.action.val="Gmail"</tag></item>
+	<item>va sur Gimèl<tag>out.action.val="Gmail"</tag></item>
+	<item>va sur Gémèl<tag>out.action.val="Gmail"</tag></item>
+	
+	<!-- Affichage de la page Gmail aussi -->
+	<item>va sur ma méssageri<tag>out.action.val="Gmail"</tag></item>
+	<item>affiche ma méssageri<tag>out.action.val="Gmail"</tag></item>
+	<item>ouvre ma méssageri<tag>out.action.val="Gmail"</tag></item>
+	<item>lance ma méssageri<tag>out.action.val="Gmail"</tag></item>
+	
+	<!-- Affichage de la page Google -->
+	<item>va sur gougueule<tag>out.action.val="Gougueule"</tag></item>
+	<item>affiche gougueule<tag>out.action.val="Gougueule"</tag></item>
+	<item>ouvre gougueule<tag>out.action.val="Gougueule"</tag></item>
+	<item>lance gougueule<tag>out.action.val="Gogueule"</tag></item>
+	
+	<!-- Affichage de la page Twitter -->
+	<item>lance touiteure<tag>out.action.val="Twitter"</tag></item>
+	<item>Mais touiteure<tag>out.action.val="Twitter"</tag></item>
+	<item>Vas sure touiteure<tag>out.action.val="Twitter"</tag></item>
+	<item>Ouvre touiteure<tag>out.action.val="Twitter"</tag></item>
+	<item>Lance touiteure<tag>out.action.val="Twitter"</tag></item>
+	<item>Affiche touiteure<tag>out.action.val="Twitter"</tag></item>
+	
+	<!-- Affichage d'une page pour des recette quelconque -->
+	<item>trouve une recette<tag>out.action.val="allo"</tag></item>
+	<item>trouve moi une recette<tag>out.action.val="allo"</tag></item>  
+	
+	<!-- Lancement de Firefox -->
+	<item>va sur failleurfox<tag>out.action.val="runfirefox"</tag></item>
+	<item>affiche failleurfox<tag>out.action.val="runfirefox"</tag></item>
+	<item>lance failleurfox<tag>out.action.val="runfirefox"</tag></item>
+	<item>ouvre failleurfox<tag>out.action.val="runfirefox"</tag></item>
+	<item>ferme failleurfox<tag>out.action.val="closefirefox"</tag></item>
+	
+	<!-- Lancement et ferme GoogleChrome -->
+	<item>va sur gougueule<tag>out.action.val="rungooglechrome"</tag></item>
+	<item>affiche gougueule<tag>out.action.val="rungooglechrome"</tag></item>
+	<item>lance gougueule<tag>out.action.val="rungooglechrome"</tag></item>
+	<item>ouvre gougueule<tag>out.action.val="rungooglechrome"</tag></item>
+	<item>ferme gougueule<tag>out.action.val="closegooglechrome"</tag></item>
+	
+	<!-- Affichage de la page du Store -->
+    <item>Ouvre le store<tag>out.action.val="store"</tag></item>
+	<item>Mais le store<tag>out.action.val="store"</tag></item>
+	<item>Lance le store<tag>out.action.val="store"</tag></item>
+	<item>Affiche store<tag>out.action.val="store"</tag></item>
+	<item>Vas sure le store<tag>out.action.val="store"</tag></item> 
+	
+	<!-- Affichage de la page de PageJaune -->
+	<item>Ouvre les pagejaune<tag>out.action.val="pagejaune"</tag></item> 
+	<item>Affiche les pagejaune<tag>out.action.val="pagejaune"</tag></item> 
+	<item>Lance les pagejaune<tag>out.action.val="pagejaune"</tag></item>  
+    <item>Mais les pagejaune<tag>out.action.val="pagejaune"</tag></item> 
+    <item>Vas sure les pagejaune<tag>out.action.val="pagejaune"</tag></item> 
+	
+	<!-- Affichage de la page de eMule-island  -->
+	<item>Ouvre eMule<tag>out.action.val="eMule"</tag></item> 
+	<item>Affiche eMule<tag>out.action.val="eMule"</tag></item> 
+	<item>Lance eMule<tag>out.action.val="eMule"</tag></item>  
+    <item>Mais eMule<tag>out.action.val="eMule"</tag></item> 
+    <item>Vas sure eMule<tag>out.action.val="eMule"</tag></item> 
+	<item>va sur eMule<tag>out.action.val="eMule"</tag></item> 
+	
+	<!-- Affichage de la page Wikipédia -->
+    <item>Vas sure wikipédia<tag>out.action.val="wikipedia"</tag></item> 
+	<item>Mais wikipédia<tag>out.action.val="wikipedia"</tag></item> 
+	<item>Lance wikipédia<tag>out.action.val="wikipedia"</tag></item> 
+	<item>Affiche wikipédia<tag>out.action.val="wikipedia"</tag></item>  
+	<item>Ouvre wikipédia<tag>out.action.val="wikipedia"</tag></item>  
+	
+	<!-- Affichage de la page du site Cdiscount -->
+	<item>Ouvre Cdiscount<tag>out.action.val="Cdiscount"</tag></item>  
+	<item>Lance Cdiscount<tag>out.action.val="Cdiscount"</tag></item>
+	<item>Affiche Cdiscount<tag>out.action.val="Cdiscount"</tag></item>
+	<item>Vas sure Cdiscount<tag>out.action.val="Cdiscount"</tag></item>
+	<item>Mais Cdiscount<tag>out.action.val="Cdiscount"</tag></item>
+	
+	<!-- Affichage de la page du site Ebay -->
+	<item>Ouvre ibé<tag>out.action.val="ebay"</tag></item>  
+	<item>Lance ibé<tag>out.action.val="ebay"</tag></item>
+	<item>Affiche ibé<tag>out.action.val="ebay"</tag></item>
+	<item>Vas sure ibé<tag>out.action.val="ebay"</tag></item>
+	<item>Mais ibé<tag>out.action.val="ebay"</tag></item>
+	
+	<!-- Affichage de la page du site Leboncoin -->
+	<item>Ouvre leboncoin<tag>out.action.val="leboncoin"</tag></item>  
+	<item>Lance leboncoin<tag>out.action.val="leboncoin"</tag></item>
+	<item>Affiche leboncoin<tag>out.action.val="leboncoin"</tag></item>
+	<item>Vas sure leboncoin<tag>out.action.val="leboncoin"</tag></item>
+	<item>Mais leboncoin<tag>out.action.val="leboncoin"</tag></item>
+	
+	<!-- Lancement d'information, actulité, les Média --> 
+	<item>mets le journale<tag>out.action.val="journale"</tag></item>
+	<item>donne moi le journale<tag>out.action.val="journale"</tag></item>
+	<item>affiche le journale<tag>out.action.val="journale"</tag></item>
+	<item>met les infos en direct<tag>out.action.val="bfm"</tag></item>
+	<item>affiche les infos en direct<tag>out.action.val="bfm"</tag></item>
+	<item>mais les infos<tag>out.action.val="bfm"</tag></item>
+	
+	<!-- Lancement du termineau, processusse -->   
+	<item>affiche le terminale<tag>out.action.val="konsole"</tag></item>
+	<item>active le terminale<tag>out.action.val="konsole"</tag></item>
+	<item>affiche les procéssusse<tag>out.action.val="process"</tag></item> 
+	<item>affiche le panneau de configuration<tag>out.action.val="controlpanel"</tag></item>
+	
+	<!-- Création d'un dossier vide -->
+	<item>mai un dossier<tag>out.action.val="Dossier"</tag></item>
+	<item>fai un dossier<tag>out.action.val="Dossier"</tag></item>
+	<item>crèe un dossier<tag>out.action.val="Dossier"</tag></item>
+	
+	<!-- Création d'un document vide -->
+	<item>mai un document<tag>out.action.val="Fichier"</tag><tag>out.action._attributes.tts = "votre document a été crée sur votre bureau"</tag></item>
+	<item>fai un document<tag>out.action.val="Fichier"</tag><tag>out.action._attributes.tts = "votre document a été crée sur votre bureau"</tag></item>
+	<item>crèe un document<tag>out.action.val="Fichier"</tag><tag>out.action._attributes.tts = "votre document a été crée sur votre bureau"</tag></item>
+	
+	<!-- Création d'un fichier vide --> 
+	<item>mai un fichier<tag>out.action.val="Fichier"</tag></item>
+	<item>fai un fichier<tag>out.action.val="Fichier"</tag></item>
+	<item>crèe un fichier<tag>out.action.val="Fichier"</tag></item>
+	<item>crèe un fichier vide<tag>out.action.val="fichier"</tag></item>
+	
+	<!-- Les rebond -->  
+	<item>séléctionne tout<tag>out.action.val="selectall"</tag></item>
+	<item>surligne tout<tag>out.action.val="selectall"</tag></item> 
+	
+	<item>annule<tag>out.action.val="cancel"</tag></item>
+	<item>annulation<tag>out.action.val="cancel"</tag></item>
+	
+	<item>rétabli<tag>out.action.val="retablir"</tag></item>
+	<item>remets<tag>out.action.val="retablir"</tag></item>
+	
+	<item>vérrouille ma séssion<tag>out.action.val="lock"</tag></item> 
+	<item>vérrouillage<tag>out.action.val="lock"</tag></item> 
+	
+	<item>sauvegarde<tag>out.action.val="save"</tag></item>
+	<item>fait une sauvegarde<tag>out.action.val="save"</tag></item>
+	
+    <item>copie<tag>out.action.val="copy"</tag></item>
+	<item>colle<tag>out.action.val="paste"</tag></item>
+	<item>coupe<tag>out.action.val="cut"</tag><tag>out.action._attributes.tts = "contenu coupé"</tag></item>
+	
+	<item>actualise<tag>out.action.val="f5"</tag><tag>out.action._attributes.tts = "Actualisation éffectuer"</tag></item>
+	<item>raffraichis<tag>out.action.val="f5"</tag><tag>out.action._attributes.tts = "Raffraichissement éffectuer"</tag></item>
+	
+	<!-- Ferme l'onglet du page internet --> 
+	<item>ferme l'onglet<tag>out.action.val="f4"</tag><tag>out.action._attributes.tts = "onglet fermé"</tag></item> 
+	<item>ferme les onglet<tag>out.action.val="f4"</tag><tag>out.action._attributes.tts = "voilà monsieur"</tag></item>
+	
+	<!-- Suivant, précedent, sauvegarde, ferme... -->
+	<item>préçedent<tag>out.action.val="precedent"</tag></item>
+	<item>suivant<tag>out.action.val="next"</tag></item>
+	<item>férme toute les fenétre<tag>out.action.val="shut"</tag></item>
+	<item>férme les fenétre<tag>out.action.val="shut"</tag></item>
+	<item>enlève les fenêtre<tag>out.action.val="shut"</tag></item>
+	<item>ferme les page<tag>out.action.val="shut"</tag></item>
+	<item>ferme la page<tag>out.action.val="shut"</tag></item>  
+	<item>valide<tag>out.action.val="enter"</tag></item>    
+	
+	<!-- Vidage de la corbeille -->   
+	<item>vide moi la corbeille<tag>out.action.val="corbeille"</tag></item>
+	<item>vide la corbeille<tag>out.action.val="corbeille"</tag></item>
+	<item>éfface la corbeille<tag>out.action.val="corbeille"</tag></item>
+	<item>vide moi la poubelle<tag>out.action.val="corbeille"</tag></item>
+	<item>vide la poubelle<tag>out.action.val="corbeille"</tag></item>
+	<item>éfface la poubelle<tag>out.action.val="corbeille"</tag></item>
+	
+	<!-- Lancement fermeture de logiciels -->
+	
+	<!-- Ouverture de XBMC --> 
+	<item>démarre XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>vas sur XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>mais XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>affiche XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>lance XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>démarre le XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	<item>lance le XBéMCé<tag>out.action.val="runxbmc"</tag></item>
+	
+	<!-- Fermeture de XBMC --> 
+	<item>férme XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	<item>férme le XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	<item>éteind XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	<item>éteind le XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	<item>Arréte le XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	<item>Arréte XBéMCé<tag>out.action.val="closexbmc"</tag></item>
+	
+	<!-- Lancement ouverture fermeture de Kodi -->
+	
+	<!-- Ouverture de Kodi --> 
+	<item>démarre kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>vas sur kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>mais kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>affiche kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>lance kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>démarre le kodi<tag>out.action.val="runkodi"</tag></item>
+	<item>lance le kodi<tag>out.action.val="runkodi"</tag></item>
+	
+	<!-- Fermeture de Kodi --> 
+	<item>férme kodi<tag>out.action.val="closekodi"</tag></item>
+	<item>férme le kodi<tag>out.action.val="closekodi"</tag></item>
+	<item>éteind kodi<tag>out.action.val="closekodi"</tag></item>
+	<item>éteind le kodi<tag>out.action.val="closekodi"</tag></item>
+	<item>Arréte le kodi<tag>out.action.val="closekodi"</tag></item>
+	<item>Arréte kodi<tag>out.action.val="closekodi"</tag></item> 
+	
+	<!-- Lancement du Pense-bête de windows 10 --> 
+	<item>démarre le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	<item>vas sur le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	<item>mais le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	<item>affiche le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	<item>lance le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	<item>démarre le Pense-bête<tag>out.action.val="runPensebête"</tag></item>
+	
+	<!-- Fermeture du pence-bête -->
+	<item>Férme le Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	<item>Férme Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	<item>éteind Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	<item>éteind le Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	<item>arréte Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	<item>arréte le Pense-bête<tag>out.action.val="closePensebête"</tag></item>
+	
+	<!-- Lancement de Origin ( c'est comme Steam ) --> 
+	<item>démarre origin<tag>out.action.val="runOrigin"</tag></item>
+	<item>vas sur origin<tag>out.action.val="runOrigin"</tag></item>
+	<item>mais origin<tag>out.action.val="runOrigin"</tag></item>
+	<item>affiche origin<tag>out.action.val="runOrigin"</tag></item>
+	<item>lance origin<tag>out.action.val="runOrigin"</tag></item>
+	
+	<!-- Fermeture de Origin ( c'est comme Steam ) -->
+	<item>Férme origin<tag>out.action.val="closeOrigin"</tag></item>
+	<item>éteind origin<tag>out.action.val="closeOrigin"</tag></item>
+	<item>arréte origin<tag>out.action.val="closeOrigin"</tag></item>
+	
+	<!-- Lancement de Steam --> 
+	<item>démarre stime<tag>out.action.val="runSteam"</tag></item>
+	<item>vas sur stime<tag>out.action.val="runSteam"</tag></item>
+	<item>mais stime<tag>out.action.val="runSteam"</tag></item>
+	<item>affiche stime<tag>out.action.val="runSteam"</tag></item>
+	<item>lance stime<tag>out.action.val="runSteam"</tag></item>
+	
+	<!-- Fermeture de Steam -->
+	<item>Férme stime<tag>out.action.val="closeSteam"</tag></item>
+	<item>éteind stime<tag>out.action.val="closeSteam"</tag></item>
+	<item>arréte stime<tag>out.action.val="closeSteam"</tag></item>
+	
+    <!-- Lancement de Skype --> 
+	<item>démarre skipe<tag>out.action.val="runSkype"</tag></item>
+	<item>vas sur skipe<tag>out.action.val="runSkype"</tag></item>
+	<item>mais skipe<tag>out.action.val="runSkype"</tag></item>
+	<item>affiche skipe<tag>out.action.val="runSkype"</tag></item>
+	<item>lance skipe<tag>out.action.val="runSkype"</tag></item>
+	
+	<!-- Fermeture de Skype -->
+	<item>Férme skipe<tag>out.action.val="closeSkype"</tag></item>
+	<item>éteind skipe<tag>out.action.val="closeSkype"</tag></item>
+	<item>arréte skipe<tag>out.action.val="closeSkype"</tag></item>
+	
+	<!-- Lancement de media center --> 
+	<item>démarre médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>vas sur médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>mais médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>affiche médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>lance médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>démarre le médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	<item>lance le médiacenteure<tag>out.action.val="runMédiacenteure"</tag></item>
+	
+	<!-- Fermeture de media center -->
+	<item>Férme médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	<item>Férme le médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	<item>éteind médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	<item>éteind le médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	<item>arréte médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	<item>arréte le médiacenteure<tag>out.action.val="closeMédiacenteure"</tag></item>
+	
+	<!-- Lancement d'ouverture du logiciel CamStudio -->
+	<item>lance capture vidéo<tag>out.action.val="CamStudio"</tag></item>
+	<item>ouvre l'enregistrement du bureau<tag>out.action.val="CamStudio"</tag></item>
+	<item>mais la capture vidéo<tag>out.action.val="CamStudio"</tag></item>
+	<item>va sur capture<tag>out.action.val="CamStudio"</tag></item>
+	
+	<!-- Lancement de la fermeture du logiciel CamStudio -->  
+	<item>ferme la capture vidéo<tag>out.action.val="closeCamStudio"</tag></item>
+	<item>ferme l'enregistrement du bureau<tag>out.action.val="closeCamStudio"</tag></item>
+	<item>éteind la capture vidéo<tag>out.action.val="closeCamStudio"</tag></item>
+	<item>arréte la capture<tag>out.action.val="closeCamStudio"</tag></item>
+	
+	<!-- Lancement d'ouverture de Bluetooth -->  
+	<item>lance Bloutous<tag>out.action.val="runBluetooth"</tag></item>
+	<item>ouvre Bloutous<tag>out.action.val="runBluetooth"</tag></item>
+	<item>mais Bloutous<tag>out.action.val="runBluetooth"</tag></item>
+	<item>affiche Bloutous<tag>out.action.val="runBluetooth"</tag></item>
+	<item>va sur Bloutous<tag>out.action.val="runBluetooth"</tag></item>  
+	
+ 	<!-- Lancement de la fermeture du Bluetooth -->  
+	<item>ferme le Bloutous<tag>out.action.val="closeBluetooth"</tag></item>
+	<item>ferme Bloutous<tag>out.action.val="closeBluetooth"</tag></item>
+	<item>éteind le Bloutous<tag>out.action.val="closeBluetooth"</tag></item>
+	<item>arréte le Bloutous<tag>out.action.val="closeBluetooth"</tag></item>
+	
+	<!-- Lancement d'ouverture Internet Explorer -->  
+	<item>lance internet éxploreure<tag>out.action.val="runInternetExplorer"</tag></item>
+	<item>ouvre internet éxploreure<tag>out.action.val="runInternetExplorer"</tag></item>
+	<item>mais internet éxploreure<tag>out.action.val="runInternetExplorer"</tag></item>
+	<item>affiche internet éxploreure<tag>out.action.val="runInternetExplorer"</tag></item>
+	<item>va sur internet éxploreure<tag>out.action.val="runInternetExplorer"</tag></item>
+	
+	<!-- Lancement de Internet Explorer -->  
+	<item>ferme internet éxploreure<tag>out.action.val="closeInternetExplorer"</tag></item>
+	<item>ferme internet éxploreure<tag>out.action.val="closeInternetExplorer"</tag></item>
+	<item>éteind internet éxploreure<tag>out.action.val="closeInternetExplorer"</tag></item>
+	<item>arréte internet éxploreure<tag>out.action.val="closeInternetExplorer"</tag></item>
+	
+	<!-- Lancement d'ouverture de VLC -->  
+	<item>lance vlc<tag>out.action.val="runvlc"</tag></item>
+	<item>ouvre vlc<tag>out.action.val="runvlc"</tag></item>
+	<item>mais vlc<tag>out.action.val="runvlc"</tag></item>
+	<item>affiche vlc<tag>out.action.val="runvlc"</tag></item>
+	<item>va sur vlc<tag>out.action.val="runvlc"</tag></item>
+	
+	<!-- Lancement de fermeture de VLC -->  
+	<item>ferme vlc<tag>out.action.val="closerunvlc"</tag></item>
+	<item>ferme la fenêtre de vlc<tag>out.action.val="closerunvlc"</tag></item>
+	<item>désactive vlc<tag>out.action.val="closerunvlc"</tag></item>
+	<item>éteind vlc<tag>out.action.val="closerunvlc"</tag></item>
+	<item>enlève vlc<tag>out.action.val="closerunvlc"</tag></item>
+	
+	<!-- Lancement de l'ouverture de la Webcam AMCap -->   
+	<item>lance la webcam<tag>out.action.val="webcam"</tag></item>
+	<item>ouvre la webcam<tag>out.action.val="webcam"</tag></item>
+	<item>mais la webcam<tag>out.action.val="webcam"</tag></item>
+	<item>affiche la webcam<tag>out.action.val="webcam"</tag></item>
+	<item>va sur la webcam<tag>out.action.val="webcam"</tag></item> 
+	
+	<!-- Lancement de la fermeture de la Webcam AMCap -->
+	<item>ferme la webcam<tag>out.action.val="closewebcam"</tag></item>
+	<item>ferme la fenêtre de la webcam<tag>out.action.val="closewebcam"</tag></item>
+	<item>désactive la webcam<tag>out.action.val="closewebcam"</tag></item>
+	<item>éteind la webcam<tag>out.action.val="closewebcam"</tag></item>
+	<item>enlève la webcam<tag>out.action.val="closewebcam"</tag></item>
+	
+	<!-- Lancement de l'ouverture de Notepad++ -->
+	<item>affiche notpad<tag>out.action.val="runnotepad"</tag></item>
+	<item>ouvre notpad<tag>out.action.val="runnotepad"</tag></item>
+	<item>lance notpad<tag>out.action.val="runnotepad"</tag></item>
+	
+	<!-- Lancement de la fermeture de la Notepad++ -->
+    <item>ferme notpad<tag>out.action.val="closenotepad"</tag></item>
+	
+	<!-- Lancement de l'ouverture de Blocnote -->
+	<item>affiche Blocnote<tag>out.action.val="runBlocnote"</tag></item>
+	<item>ouvre Blocnote<tag>out.action.val="runBlocnote"</tag></item>
+	<item>lance Blocnote<tag>out.action.val="runBlocnote"</tag></item>
+	
+	<!-- Lancement de la fermeture de Blocnote -->
+    <item>ferme Blocnote<tag>out.action.val="closeBlocnote"</tag></item>
+	
+	<!-- Lancement de l'ouverture avast free -->
+	<item>va sur avaste<tag>out.action.val="scanne_avaste"</tag></item>
+	<item>affiche Avaste<tag>out.action.val="scanne_avaste"</tag></item>
+	<item>lance Avaste<tag>out.action.val="scanne_avaste"</tag></item>
+	<item>ouvre Avaste<tag>out.action.val="scanne_avaste"</tag></item>
+	<item>Mai Avaste<tag>out.action.val="scanne_avaste"</tag></item>
+	<item>active Avaste<tag>out.action.val="scanne_avaste"</tag></item>
+
+	<!-- éteindre ou redémarré le PC --> 
+	<item>éteind le PC<tag>out.action.val="runshutdown"</tag></item>
+	<item>éteind l'ordinateur<tag>out.action.val="runshutdown"</tag></item>
+	<item>arrête le PC<tag>out.action.val="runshutdown"</tag></item>
+	<item>arrête l'ordinateur<tag>out.action.val="runshutdown"</tag></item>
+	<item>redémarre le PC<tag>out.action.val="runrestart"</tag></item>
+	<item>redémarre l'ordinateur<tag>out.action.val="runrestart"</tag></item>
+	
+	<!-- Redémarage du serveur node + client micro-->
+	<item>redémarre le programme<tag>out.action.val="runreboot"</tag></item>
+	<item>redémarre ton programme<tag>out.action.val="runreboot"</tag></item>
+	<item>relance ton programme<tag>out.action.val="runreboot"</tag></item>
+	<item>relance ton programme<tag>out.action.val="runreboot"</tag></item>
+	<item>réinitialise ton programme<tag>out.action.val="runreboot"</tag></item>  
+	<item>réinitialise ton système<tag>out.action.val="runreboot"</tag></item> 
+	<item>relance le système<tag>out.action.val="runreboot"</tag></item>
+	<item>relance ton système<tag>out.action.val="runreboot"</tag></item>
+	<item>redémarre le système<tag>out.action.val="runreboot"</tag></item>
+	<item>redémarre ton système<tag>out.action.val="runreboot"</tag></item>
+	<item>redémarre<tag>out.action.val="runreboot"</tag></item>
+	
+	<!-- Redémarage du serveur node + client micro en mode invisible( en arrière plan )-->
+	<item>redémarre en mode invisible<tag>out.action.val="start_invisible"</tag></item>
+	<item>éteind ton système<tag>out.action.val="éteindre_système"</tag></item>
+	<item>éteind ton programme<tag>out.action.val="éteindre_système"</tag></item>   
+	
+	<!-- Gestion des périphériques -->
+	<item>affiche l'écran<tag>out.action.val="screenOn"</tag></item>
+	<item>mais l'écran<tag>out.action.val="screenOn"</tag></item>
+	<item>allume l'écran<tag>out.action.val="screenOn"</tag></item>
+	<item>Lance l'écran<tag>out.action.val="screenOn"</tag></item>
+	<item>ferme l'écran<tag>out.action.val="screenOff"</tag></item>
+	<item>désactive l'écran<tag>out.action.val="screenOff"</tag></item>
+	<item>éteins l'écran<tag>out.action.val="screenOff"</tag></item>
+	
+	<!-- Mode veille Matrix, mais l'écran en veille, Mot de passe 123 puis entré -->
+	<item>Mais en veille<tag>out.action.val="runMatrix"</tag></item>
+	<item>Mais toi en veille<tag>out.action.val="runMatrix"</tag></item>
+	<item>Mode Matrice<tag>out.action.val="runMatrix"</tag></item>
+    <item>Mais là Matrix<tag>out.action.val="runMatrix"</tag></item>
+	<item>active la Matrix<tag>out.action.val="runMatrix"</tag></item>
+	
+	<!-- Mode tracabilité IP géolocalisation -->
+	<item>donne mon ipé<tag>out.action.val="tracabilitéIP"</tag></item>
+	<item>donne moi mon ipé<tag>out.action.val="tracabilitéIP"</tag></item>
+	<item>quelle et ma tracabilité<tag>out.action.val="tracabilitéIP"</tag></item>
+	<item>géolocalise moi<tag>out.action.val="tracabilitéIP"</tag></item>  
+	
+	<!-- Mode information sur votre PC -->
+	<item>mais les information du pc<tag>out.action.val="runInfoPC"</tag></item>
+	<item>donne les info du pc<tag>out.action.val="runInfoPC"</tag></item>
+	<item>donne moi les info du pc<tag>out.action.val="runInfoPC"</tag></item>
+	<item>mais les info du pc<tag>out.action.val="runInfoPC"</tag></item>  
+
+	<!-- Mode capture d'écran -->
+	<item>Fait une capture décran<tag>out.action.val="runcapture-décran"</tag></item>
+	<item>Fait une capture<tag>out.action.val="runcapture-décran"</tag></item>
+	<item>Lance une capture décran<tag>out.action.val="runcapture-décran"</tag></item>
+	<item>Lance une capture<tag>out.action.val="runcapture-décran"</tag></item>
+	
+	<!-- Mode jeux démo -->
+	<item>Lance la démo<tag>out.action.val="runpetit-jeux"</tag></item>
+	<item>lance le jeux<tag>out.action.val="runpetit-jeux"</tag></item>
+	<item>mais le jeux décran<tag>out.action.val="runpetit-jeux"</tag></item>
+	
+	<!-- Mode Radio-Dark-Best -->
+	<item>Lance la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Mais la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Affiche la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Balance la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Donne la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Donne moi la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Mode Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Allume la Radio<tag>out.action.val="runRadio"</tag></item>
+	<item>Active la Radio<tag>out.action.val="runRadio"</tag></item>
+	
+	<!-- Lance le Navigateur Web de SarahV2Cortana -->
+	<item>Lance le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Mais le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Affiche le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Balance le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Donne le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Donne moi le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Mode Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Allume le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+	<item>Active le Navigateur<tag>out.action.val="runNavigateur"</tag></item>
+    
+	<!-- Ouverture ou fermeture du lecteur DVD du PC -->
+	<item>ouvre le Dévédé<tag>out.action.val="dvdon"</tag></item>
+	<item>ouvre le lécteur Dévédé<tag>out.action.val="dvdon"</tag></item>
+	<item>ferme le Dévédé<tag>out.action.val="dvdoff"</tag></item>
+    <item>ouvre le lécteur<tag>out.action.val="dvdon"</tag></item>
+	<item>ferme le lécteur<tag>out.action.val="dvdoff"</tag></item>
+	<item>ferme le lécteur dévédé<tag>out.action.val="dvdoff"</tag></item>
+	
+    </one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/SarahV2Cortana";</tag>
+    </rule> 
+    </grammar>
+    <!-- Réalisation de SARAHV2Cortana part Avatar Rousseau (Dark Best), alias seb03000 -->
