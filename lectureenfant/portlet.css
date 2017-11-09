@@ -1,0 +1,10 @@
+.plugin-gridster.lectureenfant .front {
+  background: #55b5e6 url('images/image.jpg') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.lectureenfant .back {
+  background: #070000 url('images/image1.jpg') center 34px;
+  background-size:   100px 100px;
+  background-repeat: no-repeat;
+}
