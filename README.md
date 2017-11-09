@@ -1,10 +1,17 @@
 # Mathilde-Mode-Sarah
 Mathilde-Mode-Sarah
 
+Comme il y a des Membre qui mon demander le plugin Mathilde de +jeannel laurent car j'ai fait en sorte que le plugin Mathilde soie appelé Sarah.
+Compliquer a expliquer.
 
-Plugin Mathilde je les refait maintenat vous pouvez dire sarah , au dieu de Mathilde .
+Donc le plugin Mathilde avants on devais l'appelé Mathilde puis demandé l'action donné, maintenant plus besoin de dire Mathilde vous pouvez dire Sarah.
+J'ai rajouté pas mal de plugin supplémentaire, c'est la surprise.
 
-Vous pouvez remercier jeannel laurent pour son magnifique plugin Mathilde exélent travail.
+Voila le lien du dossier complé :  https://mega.nz/#!akAV3IaA!1ZnNY8wJFRXZwwphd8aXhp_r92ip9jpxJZD_Y0TDn2Q
+
+Sinon ici je mettre tous les plugin a mettre dans le dossier plugins de Sarah, sa revien au même.
+
+Explication de l'installation.
 
 PRINCIPE /////
 
