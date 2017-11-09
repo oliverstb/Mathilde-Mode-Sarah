@@ -1,0 +1,9 @@
+.plugin-gridster.volume .front {
+  background: #55b5e6 url('images/images01.jpg') center 34px;
+  background-size:   72px 71px;
+  background-repeat: no-repeat;
+}
+
+.plugin-gridster.volume .back {
+  background: #55b5e6;
+}
