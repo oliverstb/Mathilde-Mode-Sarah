@@ -1,0 +1,10 @@
+.plugin-gridster.minuteurmathilde .front {
+  background: #55b5e6 url('images/image00.png') center 34px;
+  background-size:   80px 80px;
+  background-repeat: no-repeat;
+}
+.plugin-gridster.minuteurmathilde .back {
+  background: #000000 url('images/image01.png') center 34px;
+  background-size:   80px 80px;
+  background-repeat: no-repeat;
+}
