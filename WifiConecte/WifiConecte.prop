@@ -1,0 +1,24 @@
+{
+  "cron" : {
+    "WifiConecte" :   { 
+      "name"       : "WifiConecte",
+      "description": "Permet de detecté les portable connecter en wifi",
+      "time"       : "0 */2 * * * *",
+	  "dossier"    : "Sarah",
+	  "disk"       : "C",
+	  "notification" : "TRUE",
+	  "creation_file" : "TRUE"
+     }
+  },
+  
+  "modules" : { 
+    "WifiConecte" :   {
+      "description": "Permet de detecté les portable connecter en wifi ",
+      "version"    : "1.3",
+	  "dossier"    : "Sarah",
+	  "disk" : "C",
+	  "notification" : "TRUE",
+	  "creation_file" : "TRUE"
+	   }
+  }
+}

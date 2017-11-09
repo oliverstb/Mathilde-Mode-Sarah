@@ -1,0 +1,14 @@
+
+Interfaceÿ: 192.168.0.17 --- 0xc
+  Adresse Internet      Adresse physique      Type
+  192.168.0.11          20-55-31-ba-65-ab     dynamique 
+  192.168.0.20          00-24-d4-77-7e-c6     dynamique 
+  192.168.0.31          84-98-66-bf-1f-55     dynamique 
+  192.168.0.40          48-5a-3f-73-da-dc     dynamique 
+  192.168.0.254         e4-9e-12-17-ab-a6     dynamique 
+  192.168.0.255         ff-ff-ff-ff-ff-ff     statique  
+  224.0.0.22            01-00-5e-00-00-16     statique  
+  224.0.0.251           01-00-5e-00-00-fb     statique  
+  224.0.0.252           01-00-5e-00-00-fc     statique  
+  239.255.255.250       01-00-5e-7f-ff-fa     statique  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     statique  

@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleWifiConecte" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="ruleWifiConecte" scope="public">
+<example>Sarah WifiConecte</example>
+<tag>out.action=new Object(); </tag>
+    
+<item>SARAH</item>
+<one-of>
+<item>Qui et connecté<tag>out.action.key="IN";</tag></item>
+<item>Qui voie tu<tag>out.action.key="IN";</tag></item>
+<item>Qui et sortie<tag>out.action.key="OUT";</tag></item>
+<item>Compte les personne<tag>out.action.key="CALL";</tag></item>
+<item>présence wifi<tag>out.action.key="CALL";</tag></item>
+	  
+</one-of>
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/WifiConecte";</tag>
+</rule> 
+</grammar>

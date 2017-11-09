@@ -1,0 +1,12 @@
+.plugin-gridster.WifiConecte .front {
+background: #55b5e6 url('image/wifi.gif') center 34px;
+background-size:   100px 100px;
+background-repeat: no-repeat;
+
+}
+
+.plugin-gridster.WifiConecte .back {
+background: #070000 url('image/wifi2.gif') center 34px;
+background-size:   100px 100px;
+background-repeat: no-repeat;
+}
