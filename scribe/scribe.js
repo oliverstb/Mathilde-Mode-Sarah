@@ -8,7 +8,6 @@ TIME_ELAPSED = 'TIME_ELAPSED';
 PARTIAL_RECO = 'PARTIAL_RECO';
 FULL_RECO    = 'FULL_RECO';
 
-
 // Javascript/Node.JS Sent-Server-Emitter (https://github.com/thibauts/node-sse-emitter)
 var sse;
 
